@@ -11,7 +11,7 @@
             --bg-dark: #0f172a;
             --card-bg: #1e293b;
             --text-main: #EFF7ED;
-            --text-dim: #94a3b8;
+            
         }
 
         * {
