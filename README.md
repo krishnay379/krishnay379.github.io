@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -170,7 +169,7 @@
     </nav>
 
     <section id="home">
-        <h1>Hi, I'm <span class="highlight">Avanish</span></h1>
+        <h1>Hi, I'm <span class="highlight">krishnanand</span></h1>
         <h3>I am a <span class="typewriter" id="type-text"></span></h3>
         <p style="margin-top: 20px; max-width: 600px; color: var(--text-dim);">
             I build responsive, high-performance web applications using modern technologies.
@@ -199,13 +198,9 @@
 
     <section id="contact">
         <h2>Contact Me</h2>
-        <form id="contact-form">
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea rows="5" placeholder="Your Message" required></textarea>
-            <button type="submit" class="btn">Send Message</button>
-        </form>
-    </section>
+        <p> phone no. +918887958010
+        email id :- krishnanandy379@gmail.com </p>
+        </section>
 
     <footer>
         <p>&copy; 2024 Avanish. All Rights Reserved.</p>
