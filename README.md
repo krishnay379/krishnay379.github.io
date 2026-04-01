@@ -1,12 +1,8 @@
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio | Developer Resume</title>
-    
-    <!-- FontAwesome for Social & Skill Icons -->
-    <link rel="stylesheet" href="https://cloudflare.com">
-    
     <style>
         /* CSS STYLES */
         :root {
@@ -14,13 +10,13 @@
             --secondary: #3b82f6;
             --bg-dark: #0f172a;
             --card-bg: #1e293b;
-            --text-main: #f8fafc;
+            --text-main: #EFF7ED;
             --text-dim: #94a3b8;
         }
 
         * {
             margin: 0;
-            padding: 0;
+            
             box-sizing: border-box;
             font-family: 'Segoe UI', Roboto, sans-serif;
         }
