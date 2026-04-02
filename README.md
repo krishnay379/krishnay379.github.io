@@ -206,5 +206,14 @@
     <footer>
         <p>&copy; 202. krishna  All Rights Reserved.</p>
     </footer>
+    if (!isDeleting && charIndex === currentPhrase.length) {
+            isDeleting = true;
+            typeSpeed = 2000; // Pause at the end
+        } else if (isDeleting && charIndex === 0) {
+            isDeleting = false;
+            phraseIndex = (phraseIndex + 1) % phrases.length;
+            typeSpeed = 500;
+        }
+
 </body>
 </html>
