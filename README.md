@@ -214,6 +214,11 @@
             phraseIndex = (phraseIndex + 1) % phrases.length;
             typeSpeed = 500;
         }
+        setTimeout(type, typeSpeed);
+    }
+
+    // Start the effect
+    document.addEventListener('DOMContentLoaded', type);
 
 </body>
 </html>
