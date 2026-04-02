@@ -180,8 +180,10 @@
         <div class="grid">
             <div class="card"><i class="fab fa-html5"></i><h3>HTML5</h3></div>
             <div class="card"><i class="fab fa-css3-alt"></i><h3>CSS3</h3></div>
-            <div class="card"><i class="fab fa-js"></i><h3>JavaScript</h3></div>
-            <div class="card"><i class="fab fa-react"></i><h3>React</h3></div>
+            <div class="card"><i class="fab fa-java"></i><h3>JavaS</h3></div>
+            <div class="card"><i class="fab fa-c++"></i><h3>C++</h3></div>
+            <div class="card"><i class="fab fa-python"></i><h3>python</h3></div>
+            <div class="card"><i class="fab fa-data analytics"></i><h3>data analytics</h3></div>
         </div>
     </section>
 
@@ -194,70 +196,12 @@
 
     <section id="contact">
         <h2>Contact Me</h2>
-        <p> phone no. +918887958010
+        <p> phone no. +918887958010<br>
         email id :- krishnanandy379@gmail.com </p>
         </section>
 
     <footer>
-        <p>&copy; 2024 Avanish. All Rights Reserved.</p>
+        <p>&copy; 202. krishna  All Rights Reserved.</p>
     </footer>
-
-    <script>
-        /* JAVASCRIPT CODE */
-
-        // 1. Typewriter Effect
-        const textElement = document.getElementById('type-text');
-        const phrases = ["Web Developer", "UI Designer", "Freelancer"];
-        let phraseIndex = 0;
-        let charIndex = 0;
-
-        function type() {
-            if (charIndex < phrases[phraseIndex].length) {
-                textElement.textContent += phrases[phraseIndex].charAt(charIndex);
-                charIndex++;
-                setTimeout(type, 100);
-            } else {
-                setTimeout(erase, 2000);
-            }
-        }
-
-        function erase() {
-            if (charIndex > 0) {
-                textElement.textContent = phrases[phraseIndex].substring(0, charIndex - 1);
-                charIndex--;
-                setTimeout(erase, 50);
-            } else {
-                phraseIndex = (phraseIndex + 1) % phrases.length;
-                setTimeout(type, 500);
-            }
-        }
-
-        // 2. Dynamic Project Loading
-        const projects = [
-            { name: "Portfolio Website", icon: "fa-code" },
-            { name: "E-Commerce App", icon: "fa-shopping-cart" },
-            { name: "Weather Dashboard", icon: "fa-cloud-sun" }
-        ];
-
-        const projectList = document.getElementById('project-list');
-        projects.forEach(p => {
-            projectList.innerHTML += `
-                <div class="card">
-                    <i class="fas ${p.icon}"></i>
-                    <h3>${p.name}</h3>
-                    <p style="font-size:0.9rem; color:#94a3b8">Modern solution with clean code.</p>
-                </div>
-            `;
-        });
-
-        // Start animations
-        document.addEventListener("DOMContentLoaded", type);
-
-        // Simple Form Submission Alert
-        document.getElementById('contact-form').addEventListener('submit', (e) => {
-            e.preventDefault();
-            alert("Thank you! Your message has been sent (Demo only).");
-        });
-    </script>
 </body>
 </html>
