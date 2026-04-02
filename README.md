@@ -165,7 +165,7 @@
     </nav>
 
     <section id="home">
-        <h1>Hi, I'm <span class="highlight">krishn</span></h1>
+        <h1>Hi, I'm Krishnanand</h1>
         <h3>I am a <span class="typewriter" id="type-text"></span></h3>
         <p style="margin-top: 20px; max-width: 600px; color: var(--text-dim);">
             I build responsive, high-performance web applications using modern technologies.
