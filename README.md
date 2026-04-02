@@ -190,6 +190,9 @@
     <section id="projects">
         <h2>Recent Projects</h2>
         <div class="grid" id="project-list">
+        <div class="card"><i class="fab fa-html5"></i><h3>Profitfolio</h3></div>
+        <div class="card"><i class="fab fa-html5"></i><h3>sales analytics report
+        </h3></div>
             <!-- JavaScript will inject cards here -->
         </div>
     </section>
