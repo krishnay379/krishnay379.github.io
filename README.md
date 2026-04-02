@@ -219,6 +219,7 @@
 
     // Start the effect
     document.addEventListener('DOMContentLoaded', type);
+</script>
 
 </body>
 </html>
